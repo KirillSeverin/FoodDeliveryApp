@@ -26,6 +26,8 @@
 		ED550CA12B862B22005478F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED550CA02B862B22005478F0 /* ViewController.swift */; };
 		ED550CA62B862B23005478F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED550CA52B862B23005478F0 /* Assets.xcassets */; };
 		ED550CA92B862B23005478F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED550CA72B862B23005478F0 /* LaunchScreen.storyboard */; };
+		EDB1D26B2B871D8F00D57B46 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB1D26A2B871D8F00D57B46 /* UIColor+Extension.swift */; };
+		EDB1D26D2B871ED400D57B46 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB1D26C2B871ED400D57B46 /* AppColors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +52,8 @@
 		ED550CA52B862B23005478F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED550CA82B862B23005478F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED550CAA2B862B23005478F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDB1D26A2B871D8F00D57B46 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		EDB1D26C2B871ED400D57B46 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +72,7 @@
 			children = (
 				ED0ABDB72B869CA800E86379 /* Extensions */,
 				ED0ABD9B2B8699AA00E86379 /* Fonts */,
+				EDB1D26C2B871ED400D57B46 /* AppColors.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -104,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				ED0ABDB82B869CF200E86379 /* UIFont+Extension.swift */,
+				EDB1D26A2B871D8F00D57B46 /* UIColor+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -224,7 +230,9 @@
 				ED550CA12B862B22005478F0 /* ViewController.swift in Sources */,
 				ED550C9D2B862B22005478F0 /* AppDelegate.swift in Sources */,
 				ED0ABDB92B869CF200E86379 /* UIFont+Extension.swift in Sources */,
+				EDB1D26D2B871ED400D57B46 /* AppColors.swift in Sources */,
 				ED550C9F2B862B22005478F0 /* SceneDelegate.swift in Sources */,
+				EDB1D26B2B871D8F00D57B46 /* UIColor+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
