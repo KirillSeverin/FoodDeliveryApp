@@ -28,6 +28,7 @@
 		ED550CA92B862B23005478F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED550CA72B862B23005478F0 /* LaunchScreen.storyboard */; };
 		EDB1D26B2B871D8F00D57B46 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB1D26A2B871D8F00D57B46 /* UIColor+Extension.swift */; };
 		EDB1D26D2B871ED400D57B46 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB1D26C2B871ED400D57B46 /* AppColors.swift */; };
+		EDB1D2722B8724E900D57B46 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB1D2712B8724E900D57B46 /* Coordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		ED550CAA2B862B23005478F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EDB1D26A2B871D8F00D57B46 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		EDB1D26C2B871ED400D57B46 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
+		EDB1D2712B8724E900D57B46 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +135,7 @@
 		ED550C9B2B862B22005478F0 /* FoodDeliveryApp */ = {
 			isa = PBXGroup;
 			children = (
+				EDB1D26E2B87247E00D57B46 /* Navigation */,
 				ED0ABD9A2B8699AA00E86379 /* Resources */,
 				ED550C9C2B862B22005478F0 /* AppDelegate.swift */,
 				ED550C9E2B862B22005478F0 /* SceneDelegate.swift */,
@@ -142,6 +145,30 @@
 				ED550CAA2B862B23005478F0 /* Info.plist */,
 			);
 			path = FoodDeliveryApp;
+			sourceTree = "<group>";
+		};
+		EDB1D26E2B87247E00D57B46 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				EDB1D2702B8724B500D57B46 /* Coordinators */,
+				EDB1D26F2B8724AD00D57B46 /* Controllers */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		EDB1D26F2B8724AD00D57B46 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		EDB1D2702B8724B500D57B46 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				EDB1D2712B8724E900D57B46 /* Coordinator.swift */,
+			);
+			path = Coordinators;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +260,7 @@
 				EDB1D26D2B871ED400D57B46 /* AppColors.swift in Sources */,
 				ED550C9F2B862B22005478F0 /* SceneDelegate.swift in Sources */,
 				EDB1D26B2B871D8F00D57B46 /* UIColor+Extension.swift in Sources */,
+				EDB1D2722B8724E900D57B46 /* Coordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
