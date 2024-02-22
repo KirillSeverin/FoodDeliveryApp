@@ -13,11 +13,11 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         let label = UILabel()
         label.text = "Hello World!"
-        label.textColor = .white
-        label.font = .systemFont(ofSize: 40, weight: UIFont.Weight(rawValue: 20))
+        label.textColor = AppColors.accentOrange
+        label.font = .Roboto.medium.size(of: 30)
         label.translatesAutoresizingMaskIntoConstraints = false
         
-        view.backgroundColor = .blue
+        view.backgroundColor = AppColors.backgroundWhite
         view.addSubview(label)
         NSLayoutConstraint.activate([
             label.topAnchor.constraint(equalTo: view.topAnchor, constant: 200),
