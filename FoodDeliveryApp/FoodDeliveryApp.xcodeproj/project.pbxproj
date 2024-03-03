@@ -21,6 +21,11 @@
 		ED0ABDB52B8699AA00E86379 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ED0ABDA82B8699AA00E86379 /* Roboto-Thin.ttf */; };
 		ED0ABDB62B8699AA00E86379 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ED0ABDA92B8699AA00E86379 /* Roboto-Black.ttf */; };
 		ED0ABDB92B869CF200E86379 /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0ABDB82B869CF200E86379 /* UIFont+Extension.swift */; };
+		ED267F692B94D4C100CE841B /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED267F682B94D4C100CE841B /* HomeCoordinator.swift */; };
+		ED267F6B2B94D50100CE841B /* OrderCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED267F6A2B94D50100CE841B /* OrderCoordinator.swift */; };
+		ED267F6D2B94D53000CE841B /* ListCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED267F6C2B94D53000CE841B /* ListCoordinator.swift */; };
+		ED267F6F2B94D56100CE841B /* ProfileCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED267F6E2B94D56100CE841B /* ProfileCoordinator.swift */; };
+		ED267F712B94D61B00CE841B /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED267F702B94D61B00CE841B /* TabBarController.swift */; };
 		ED550C9D2B862B22005478F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED550C9C2B862B22005478F0 /* AppDelegate.swift */; };
 		ED550C9F2B862B22005478F0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED550C9E2B862B22005478F0 /* SceneDelegate.swift */; };
 		ED550CA12B862B22005478F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED550CA02B862B22005478F0 /* ViewController.swift */; };
@@ -28,6 +33,9 @@
 		ED550CA92B862B23005478F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED550CA72B862B23005478F0 /* LaunchScreen.storyboard */; };
 		EDB1D26B2B871D8F00D57B46 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB1D26A2B871D8F00D57B46 /* UIColor+Extension.swift */; };
 		EDB1D26D2B871ED400D57B46 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB1D26C2B871ED400D57B46 /* AppColors.swift */; };
+		EDB1D2722B8724E900D57B46 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB1D2712B8724E900D57B46 /* Coordinator.swift */; };
+		EDB1D2742B872E7500D57B46 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB1D2732B872E7500D57B46 /* AppCoordinator.swift */; };
+		EDB1D2762B872FD400D57B46 /* OnboardingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB1D2752B872FD400D57B46 /* OnboardingCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +53,11 @@
 		ED0ABDA82B8699AA00E86379 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
 		ED0ABDA92B8699AA00E86379 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
 		ED0ABDB82B869CF200E86379 /* UIFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
+		ED267F682B94D4C100CE841B /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
+		ED267F6A2B94D50100CE841B /* OrderCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderCoordinator.swift; sourceTree = "<group>"; };
+		ED267F6C2B94D53000CE841B /* ListCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCoordinator.swift; sourceTree = "<group>"; };
+		ED267F6E2B94D56100CE841B /* ProfileCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCoordinator.swift; sourceTree = "<group>"; };
+		ED267F702B94D61B00CE841B /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		ED550C992B862B22005478F0 /* FoodDeliveryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodDeliveryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED550C9C2B862B22005478F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED550C9E2B862B22005478F0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -54,6 +67,9 @@
 		ED550CAA2B862B23005478F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EDB1D26A2B871D8F00D57B46 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		EDB1D26C2B871ED400D57B46 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
+		EDB1D2712B8724E900D57B46 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		EDB1D2732B872E7500D57B46 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		EDB1D2752B872FD400D57B46 /* OnboardingCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +149,7 @@
 		ED550C9B2B862B22005478F0 /* FoodDeliveryApp */ = {
 			isa = PBXGroup;
 			children = (
+				EDB1D26E2B87247E00D57B46 /* Navigation */,
 				ED0ABD9A2B8699AA00E86379 /* Resources */,
 				ED550C9C2B862B22005478F0 /* AppDelegate.swift */,
 				ED550C9E2B862B22005478F0 /* SceneDelegate.swift */,
@@ -142,6 +159,37 @@
 				ED550CAA2B862B23005478F0 /* Info.plist */,
 			);
 			path = FoodDeliveryApp;
+			sourceTree = "<group>";
+		};
+		EDB1D26E2B87247E00D57B46 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				EDB1D2702B8724B500D57B46 /* Coordinators */,
+				EDB1D26F2B8724AD00D57B46 /* Controllers */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		EDB1D26F2B8724AD00D57B46 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ED267F702B94D61B00CE841B /* TabBarController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		EDB1D2702B8724B500D57B46 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				EDB1D2712B8724E900D57B46 /* Coordinator.swift */,
+				EDB1D2732B872E7500D57B46 /* AppCoordinator.swift */,
+				EDB1D2752B872FD400D57B46 /* OnboardingCoordinator.swift */,
+				ED267F682B94D4C100CE841B /* HomeCoordinator.swift */,
+				ED267F6A2B94D50100CE841B /* OrderCoordinator.swift */,
+				ED267F6C2B94D53000CE841B /* ListCoordinator.swift */,
+				ED267F6E2B94D56100CE841B /* ProfileCoordinator.swift */,
+			);
+			path = Coordinators;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,12 +275,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED267F6B2B94D50100CE841B /* OrderCoordinator.swift in Sources */,
 				ED550CA12B862B22005478F0 /* ViewController.swift in Sources */,
 				ED550C9D2B862B22005478F0 /* AppDelegate.swift in Sources */,
 				ED0ABDB92B869CF200E86379 /* UIFont+Extension.swift in Sources */,
 				EDB1D26D2B871ED400D57B46 /* AppColors.swift in Sources */,
+				EDB1D2762B872FD400D57B46 /* OnboardingCoordinator.swift in Sources */,
+				EDB1D2742B872E7500D57B46 /* AppCoordinator.swift in Sources */,
 				ED550C9F2B862B22005478F0 /* SceneDelegate.swift in Sources */,
+				ED267F6F2B94D56100CE841B /* ProfileCoordinator.swift in Sources */,
+				ED267F6D2B94D53000CE841B /* ListCoordinator.swift in Sources */,
+				ED267F692B94D4C100CE841B /* HomeCoordinator.swift in Sources */,
+				ED267F712B94D61B00CE841B /* TabBarController.swift in Sources */,
 				EDB1D26B2B871D8F00D57B46 /* UIColor+Extension.swift in Sources */,
+				EDB1D2722B8724E900D57B46 /* Coordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
