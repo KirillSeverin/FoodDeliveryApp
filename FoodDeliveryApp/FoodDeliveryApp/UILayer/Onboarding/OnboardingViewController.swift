@@ -47,6 +47,7 @@ private extension OnboardingViewController {
     func setupPageViewController() {
         pageViewController.delegate = self
         pageViewController.dataSource = self
+        pageViewController.view.backgroundColor = AppColors.accentOrange
         pageViewController.setViewControllers([pages.first!],
                                               direction: .forward,
                                               animated: true)
@@ -77,7 +78,7 @@ extension OnboardingViewController: UIPageViewControllerDataSource {
     ) -> UIViewController? {
         guard let currentIndex = pages.firstIndex(of: viewController),
               currentIndex > 0  else {
-            return UIViewController()
+            return nil
         }
         
         return pages[currentIndex - 1]
@@ -89,7 +90,7 @@ extension OnboardingViewController: UIPageViewControllerDataSource {
     ) -> UIViewController? {
         guard let currentIndex = pages.firstIndex(of: viewController),
               currentIndex < pages.count - 1  else {
-            return UIViewController()
+            return nil
         }
         
         return pages[currentIndex + 1]
