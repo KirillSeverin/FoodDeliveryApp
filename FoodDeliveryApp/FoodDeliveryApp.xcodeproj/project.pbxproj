@@ -31,11 +31,15 @@
 		ED550CA12B862B22005478F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED550CA02B862B22005478F0 /* ViewController.swift */; };
 		ED550CA62B862B23005478F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED550CA52B862B23005478F0 /* Assets.xcassets */; };
 		ED550CA92B862B23005478F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED550CA72B862B23005478F0 /* LaunchScreen.storyboard */; };
+		ED8F087E2B96191B0021F0E0 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8F087D2B96191B0021F0E0 /* OnboardingViewController.swift */; };
+		ED8F08802B9619910021F0E0 /* OnboardingViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8F087F2B9619910021F0E0 /* OnboardingViewPresenter.swift */; };
 		EDB1D26B2B871D8F00D57B46 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB1D26A2B871D8F00D57B46 /* UIColor+Extension.swift */; };
 		EDB1D26D2B871ED400D57B46 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB1D26C2B871ED400D57B46 /* AppColors.swift */; };
 		EDB1D2722B8724E900D57B46 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB1D2712B8724E900D57B46 /* Coordinator.swift */; };
 		EDB1D2742B872E7500D57B46 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB1D2732B872E7500D57B46 /* AppCoordinator.swift */; };
 		EDB1D2762B872FD400D57B46 /* OnboardingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB1D2752B872FD400D57B46 /* OnboardingCoordinator.swift */; };
+		EDC649AD2B9B2F7600C58B81 /* OnboardingPartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC649AC2B9B2F7600C58B81 /* OnboardingPartViewController.swift */; };
+		EDC649B02B9BB9C000C58B81 /* UserStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC649AF2B9BB9C000C58B81 /* UserStorage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,11 +69,15 @@
 		ED550CA52B862B23005478F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED550CA82B862B23005478F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED550CAA2B862B23005478F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED8F087D2B96191B0021F0E0 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		ED8F087F2B9619910021F0E0 /* OnboardingViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewPresenter.swift; sourceTree = "<group>"; };
 		EDB1D26A2B871D8F00D57B46 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		EDB1D26C2B871ED400D57B46 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
 		EDB1D2712B8724E900D57B46 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		EDB1D2732B872E7500D57B46 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		EDB1D2752B872FD400D57B46 /* OnboardingCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCoordinator.swift; sourceTree = "<group>"; };
+		EDC649AC2B9B2F7600C58B81 /* OnboardingPartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPartViewController.swift; sourceTree = "<group>"; };
+		EDC649AF2B9BB9C000C58B81 /* UserStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStorage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +157,8 @@
 		ED550C9B2B862B22005478F0 /* FoodDeliveryApp */ = {
 			isa = PBXGroup;
 			children = (
+				EDC649AE2B9BB98600C58B81 /* ServicesLayer */,
+				ED8F087B2B9618470021F0E0 /* UILayer */,
 				EDB1D26E2B87247E00D57B46 /* Navigation */,
 				ED0ABD9A2B8699AA00E86379 /* Resources */,
 				ED550C9C2B862B22005478F0 /* AppDelegate.swift */,
@@ -159,6 +169,24 @@
 				ED550CAA2B862B23005478F0 /* Info.plist */,
 			);
 			path = FoodDeliveryApp;
+			sourceTree = "<group>";
+		};
+		ED8F087B2B9618470021F0E0 /* UILayer */ = {
+			isa = PBXGroup;
+			children = (
+				ED8F087C2B9618F10021F0E0 /* Onboarding */,
+			);
+			path = UILayer;
+			sourceTree = "<group>";
+		};
+		ED8F087C2B9618F10021F0E0 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				ED8F087D2B96191B0021F0E0 /* OnboardingViewController.swift */,
+				ED8F087F2B9619910021F0E0 /* OnboardingViewPresenter.swift */,
+				EDC649AC2B9B2F7600C58B81 /* OnboardingPartViewController.swift */,
+			);
+			path = Onboarding;
 			sourceTree = "<group>";
 		};
 		EDB1D26E2B87247E00D57B46 /* Navigation */ = {
@@ -190,6 +218,14 @@
 				ED267F6E2B94D56100CE841B /* ProfileCoordinator.swift */,
 			);
 			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		EDC649AE2B9BB98600C58B81 /* ServicesLayer */ = {
+			isa = PBXGroup;
+			children = (
+				EDC649AF2B9BB9C000C58B81 /* UserStorage.swift */,
+			);
+			path = ServicesLayer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -282,12 +318,16 @@
 				EDB1D26D2B871ED400D57B46 /* AppColors.swift in Sources */,
 				EDB1D2762B872FD400D57B46 /* OnboardingCoordinator.swift in Sources */,
 				EDB1D2742B872E7500D57B46 /* AppCoordinator.swift in Sources */,
+				ED8F087E2B96191B0021F0E0 /* OnboardingViewController.swift in Sources */,
 				ED550C9F2B862B22005478F0 /* SceneDelegate.swift in Sources */,
 				ED267F6F2B94D56100CE841B /* ProfileCoordinator.swift in Sources */,
 				ED267F6D2B94D53000CE841B /* ListCoordinator.swift in Sources */,
 				ED267F692B94D4C100CE841B /* HomeCoordinator.swift in Sources */,
 				ED267F712B94D61B00CE841B /* TabBarController.swift in Sources */,
+				EDC649AD2B9B2F7600C58B81 /* OnboardingPartViewController.swift in Sources */,
+				EDC649B02B9BB9C000C58B81 /* UserStorage.swift in Sources */,
 				EDB1D26B2B871D8F00D57B46 /* UIColor+Extension.swift in Sources */,
+				ED8F08802B9619910021F0E0 /* OnboardingViewPresenter.swift in Sources */,
 				EDB1D2722B8724E900D57B46 /* Coordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
