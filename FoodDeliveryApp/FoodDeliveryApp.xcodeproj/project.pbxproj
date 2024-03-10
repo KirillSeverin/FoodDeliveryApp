@@ -40,6 +40,7 @@
 		EDB1D2762B872FD400D57B46 /* OnboardingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB1D2752B872FD400D57B46 /* OnboardingCoordinator.swift */; };
 		EDC649AD2B9B2F7600C58B81 /* OnboardingPartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC649AC2B9B2F7600C58B81 /* OnboardingPartViewController.swift */; };
 		EDC649B02B9BB9C000C58B81 /* UserStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC649AF2B9BB9C000C58B81 /* UserStorage.swift */; };
+		EDC649B32B9E2BF600C58B81 /* SceneFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC649B22B9E2BF600C58B81 /* SceneFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -78,6 +79,7 @@
 		EDB1D2752B872FD400D57B46 /* OnboardingCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCoordinator.swift; sourceTree = "<group>"; };
 		EDC649AC2B9B2F7600C58B81 /* OnboardingPartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPartViewController.swift; sourceTree = "<group>"; };
 		EDC649AF2B9BB9C000C58B81 /* UserStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStorage.swift; sourceTree = "<group>"; };
+		EDC649B22B9E2BF600C58B81 /* SceneFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +176,7 @@
 		ED8F087B2B9618470021F0E0 /* UILayer */ = {
 			isa = PBXGroup;
 			children = (
+				EDC649B12B9E2BD700C58B81 /* SceneFactory */,
 				ED8F087C2B9618F10021F0E0 /* Onboarding */,
 			);
 			path = UILayer;
@@ -226,6 +229,14 @@
 				EDC649AF2B9BB9C000C58B81 /* UserStorage.swift */,
 			);
 			path = ServicesLayer;
+			sourceTree = "<group>";
+		};
+		EDC649B12B9E2BD700C58B81 /* SceneFactory */ = {
+			isa = PBXGroup;
+			children = (
+				EDC649B22B9E2BF600C58B81 /* SceneFactory.swift */,
+			);
+			path = SceneFactory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -326,6 +337,7 @@
 				ED267F712B94D61B00CE841B /* TabBarController.swift in Sources */,
 				EDC649AD2B9B2F7600C58B81 /* OnboardingPartViewController.swift in Sources */,
 				EDC649B02B9BB9C000C58B81 /* UserStorage.swift in Sources */,
+				EDC649B32B9E2BF600C58B81 /* SceneFactory.swift in Sources */,
 				EDB1D26B2B871D8F00D57B46 /* UIColor+Extension.swift in Sources */,
 				ED8F08802B9619910021F0E0 /* OnboardingViewPresenter.swift in Sources */,
 				EDB1D2722B8724E900D57B46 /* Coordinator.swift in Sources */,
